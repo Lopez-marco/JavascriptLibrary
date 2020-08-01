@@ -3,4 +3,5 @@ body {
 }
 .wrapper {
     border: 5px solid black;
+    font-stretch: extra-expanded;
 }

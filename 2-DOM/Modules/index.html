@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="testParagraph">sample text</p>
+    <p class='sampleClass'>This paragraph has a class of 'sampleClass'</p>
+    <h1>Hello World</h1>
+
+    <button id="clickThisButton">I wan t to be clicked</button>
+<br>
+    <label for='nameInput'>Enter your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith"/>
+
+    <p>Welcome!</p>
+    <p>No name has been entered!</p>
+    <script type="text/javascript">
+    // var x = 10;
+    // console.log(x);
+    document.getElementById('testParagraph').style.color = 'blue';
+    // document.querySelectorAll('p.sampleClass')[0].innerText = "my text was change!";
+    // document.querySelectorAll('p.sampleClass')[0].innerHTML = "<span>i am a whole new element!'</span>";
+    document.getElementById('clickThisButton').addEventListener('click', (details) => {
+        details.target.style.backgroundColor = "red";
+    });
+
+    document.getElementById('nameInput').addEventListener('keyup', (event) => {
+    document.getElementsByTagName('p')[3].innerText = `Everyone please Welcome ${event.target.value}, to the stage.`;
+    });
+    </script>
+</body>
+</html>
