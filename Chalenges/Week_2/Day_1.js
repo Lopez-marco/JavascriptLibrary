@@ -56,18 +56,18 @@
 
 
 
-let pies = ['apple', 'blueberry', 'peach', 'chocolate peanut butter', 'cherry', 'sugar', 'lemon meringue', 'chicken pot', 'shepherd', 'key lime'];
+// let pies = ['apple', 'blueberry', 'peach', 'chocolate peanut butter', 'cherry', 'sugar', 'lemon meringue', 'chicken pot', 'shepherd', 'key lime'];
 
 // for(let i = 0; i < pies.length; i++){
 //     console.log(i);
 //     console.log(pies[i]);
 // }
 
-for (pie of pies) {
-    console.log(pie);
-    if(pie.includes ('apple')){
-        console.log(`${pie} is a type of fruit pie!`);
-    } else {
-        console.log(`${pie} is not a type of fruit pie.`)
-    }
-}
+// for (pie of pies) {
+//     console.log(pie);
+//     if(pie.includes ('apple')){
+//         console.log(`${pie} is a type of fruit pie!`);
+//     } else {
+//         console.log(`${pie} is not a type of fruit pie.`)
+//     }
+// }

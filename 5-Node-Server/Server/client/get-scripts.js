@@ -18,8 +18,6 @@ function displayMine() {
             function (error) {
                 console.log('Error:', error)
             })
-
-
     .then(function (response){
         console.log(response)
 

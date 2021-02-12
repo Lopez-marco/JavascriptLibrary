@@ -116,3 +116,8 @@ var stepsToBrushTeeth = ['uncap toothpaste', 'squeeza toothpaste','rinse brush',
 //console.log(stepsToBrushTeeth);
 console.log(stepsToBrushTeeth[0]);
 console.log(typeof stepsToBrushTeeth);
+
+
+let sent = "this sentence will be split into individual parts";
+
+console.log(sent.split(sent))

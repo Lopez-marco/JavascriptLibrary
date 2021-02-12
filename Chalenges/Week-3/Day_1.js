@@ -31,6 +31,17 @@ function countingSum(start, stop){
 }
 countingSum(1,100);
 
+
+function sumAll(arr) {
+    let sum = 0;
+    for (var i = Math.min(...arr); i <= Math.max(...arr); i++) {
+      sum += i;
+    }
+    return sum;
+  }
+  console.log(sumAll([35, 77]));
+  
+
 /////////////////////////////////////////////////////////////////////////////////
 
 let animal = {
